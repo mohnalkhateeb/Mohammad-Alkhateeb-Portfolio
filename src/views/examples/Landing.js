@@ -85,9 +85,10 @@ class Landing extends React.Component {
                         <span>completed with examples</span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                      What excites me most about the science of technology
+                       is the continuous development that makes the science of technology 
+                       need continuous research to keep pace with it. The emergence of new concepts
+                        that correspond to human needs, such as artificial intelligence
                       </p>
                       <div className="btn-wrapper">
                         <Button
@@ -148,12 +149,14 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                          Software Development Course at ASAC 201 Level :Sport Store 
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                          The idea of this project is creating an online store for sport equipment. 
+                          to achieve this project,
+                           we used html and CSS and JavaScript programming languages. 
+                           I was member of group of five persons and I was the team leader of group.
+                            tools that used in this project were GitHub , WSL and vs code.   
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
@@ -184,12 +187,17 @@ class Landing extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                          Graduation Project: Wiki family tree website
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                          The idea behind this project is to help the people 
+                          on building trees of their families by technology, 
+                          we work this project by ASP.NET, the problem of 
+                          this project is how to the system know the 
+                          correctly place of any node in the tree,
+                           we solved this by numbering node with three number 
+                           (level, order_serial and prefrence_serial), 
+                           we used the stored procedure technique for programming.
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
@@ -220,12 +228,50 @@ class Landing extends React.Component {
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                          Master Thesis “Parallel Computing for Inverting Integer and Polynomial matrices”
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                          The inverse of integer and polynomial matrices is one of
+                           the most important topics in linear algebra and computer 
+                           algebra sciences. The big challenge of inverse of integer and
+                            polynomial matrices is high complexity of its computation. 
+                            In this study, a new algorithm to calculate the inverse of integer
+                             and polynomial matrices is proposed.  
+                          </p>
+                          <div>
+                            <Badge color="warning" pill className="mr-1">
+                              marketing
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              product
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              launch
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="warning"
+                            href="#pablo"
+                            onClick={e => e.preventDefault()}
+                          >
+                            Learn more
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                            <i className="ni ni-planet" />
+                          </div>
+                          <h6 className="text-warning text-uppercase">
+                            My background
+                          </h6>
+                          <p className="description mt-3">
+                          •	C/C++
+                          
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
@@ -861,7 +907,6 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-          <Download />
         </main>
         <CardsFooter />
       </>
