@@ -271,6 +271,17 @@ class Landing extends React.Component {
                           </h6>
                           <p className="description mt-3">
                           •	C/C++
+                          •	JavaScript 
+                          •	HTML and CSS
+                          •	Unix/Linux programming
+                          •	Embedded System and FPGA Programing
+                          •	MATLAB programming
+                          •	Image Processing 
+                          •	Artificial Intelligence tools
+                          •	UML using Visual Programming
+                          •	Oracle and SQL programming
+                          •	VLSI Design 
+                          •	MS Office (Excel, Word, PowerPoint, Access)
                           
                           </p>
                           <div>
